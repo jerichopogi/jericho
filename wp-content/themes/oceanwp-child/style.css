@@ -1,0 +1,165 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Jezweb
+Author URI: https://www.jezweb.com.au/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+/*============ HOME SLIDER ================*/
+
+div#home-slider .elementor-slide-content .elementor-slide-heading {
+    width:  100%;
+    max-width: 666px !important;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    background-color: #4ED9C3;
+	width: 200px;
+    border-radius: 50px;
+}
+
+div#footer-widgets {
+    display: none;
+}
+
+form.wpcf7-form {
+    color: #474747;
+}
+
+#gc_dl_btn {
+    background-color: #4ED9C3;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px 50px 50px 0px;
+}
+
+#gc_dl_btn a {
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+	font-size: 13px;
+}
+
+#gc_dl_btn:hover {
+    background-color: #1A4841;
+    transition: 0.5s;
+}
+
+input.wpcf7-form-control.wpcf7-submit.gc-submit-btn:hover {
+    background-color: #1A4841;
+    transition: 0.5s;
+}
+
+/* 1024px screen */
+@media (max-width: 1025px){
+	.elementor-element.elementor-element-6b6a311.elementor-column.elementor-col-100.elementor-top-column {
+    text-align: center;
+}
+	h2.elementor-heading-title.elementor-size-default {
+    text-align: center;
+}
+	.elementor-element.elementor-element-d132388.elementor-align-left.elementor-icon-list--layout-traditional.elementor-widget.elementor-widget-icon-list {
+    margin-left: 300px;
+}
+	.elementor-9 .elementor-element.elementor-element-c18d114.elementor-widget-heading .elementor-heading-title {
+    font-size: 28px;
+}
+	section.elementor-element.elementor-element-d164704.gc-edwork-.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-inner-section.animated.fadeInDown {
+    margin: auto;
+    width: 920px;
+}
+}
+/* 1024px end */
+
+/* 768px screen */
+@media (max-width: 768px){
+	.elementor-element.elementor-element-d132388.elementor-align-left.elementor-icon-list--layout-traditional.elementor-widget.elementor-widget-icon-list {
+    margin-left: 190px;
+}
+	.elementor-element.elementor-element-8fd32b7.gc-header-intro.elementor-column.elementor-col-50.elementor-inner-column.animated.slideInLeft h1 {
+    text-align: center;
+	margin-top: 155px;
+}
+	.elementor-element.elementor-element-9c62665.elementor-shape-rounded.elementor-widget.elementor-widget-social-icons {
+    text-align: center;
+}
+	.elementor-text-editor.elementor-clearfix p {
+    text-align: center;
+}
+	.elementor-element.elementor-element-de4501a.elementor-widget.elementor-widget-button {
+    text-align: center;
+}
+	input.wpcf7-form-control.wpcf7-submit {
+	width: 40%;
+	margin-left: 20px;
+}
+	.gc-contact-form {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+	.elementor-element.elementor-element-1762061.elementor-widget.elementor-widget-html {
+    text-align: center;
+}
+	.elementor-widget-container {
+    text-align: center;
+}
+	.elementor-element.elementor-element-d132388.elementor-align-left.elementor-icon-list--layout-traditional.elementor-widget.elementor-widget-icon-list {
+    margin-left: 190px;
+}
+}
+
+/* 768px end*/
+
+/* 600px screen */
+@media (max-width: 600px){
+	.elementor-element.elementor-element-8fd32b7.elementor-column.elementor-col-50.elementor-inner-column.animated.slideInLeft {
+    margin-top: 20px;
+}
+}
+/* 600px screen end */
+
+/* 425px screen */
+@media (max-width: 426px){
+	.elementor-9 .elementor-element.elementor-element-c18d114.elementor-widget-heading .elementor-heading-title {
+    font-size: 30px;
+	text-align: center;
+}
+	.elementor-text-editor.elementor-clearfix p {
+    text-align: center;
+}
+	.elementor-social-icons-wrapper {
+    text-align: center;
+}
+	.elementor-element.elementor-element-d132388.elementor-align-left.elementor-icon-list--layout-traditional.elementor-widget.elementor-widget-icon-list {
+    margin-left: 15px;
+}
+	.elementor-element.elementor-element-de4501a.elementor-widget.elementor-widget-button {
+    text-align: center;
+}
+	.gc-contact-form {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+/* 425px end */
+
+/* 375px screen */
+@media (max-width: 375px){
+	.elementor-9 .elementor-element.elementor-element-c18d114.elementor-widget-heading .elementor-heading-title {
+    font-size: 26px;
+}
+}
+/* 375px screen end */
+
+/* 320px screen */
+@media (max-width: 321px){
+	element.elementor-element-8fd32b7.elementor-column.elementor-col-50.elementor-inner-column {
+    margin-top: 150px;
+}
+}
+/* 320px screen end */

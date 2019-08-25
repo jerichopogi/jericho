@@ -1,0 +1,18 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Jezweb
+Author URI: https://www.jezweb.com.au/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+/*============ HOME SLIDER ================*/
+
+div#home-slider .elementor-slide-content .elementor-slide-heading {
+    width:  100%;
+    max-width: 666px !important;
+}
