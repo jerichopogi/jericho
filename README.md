@@ -1,2 +1,2 @@
 # jericho
-Professional CV
+CV
